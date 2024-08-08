@@ -9,6 +9,6 @@
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  @include form;
   border-radius: 16px;
+  @include form;
 }

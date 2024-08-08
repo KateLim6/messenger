@@ -9,8 +9,8 @@
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  @include form;
   border-radius: $border-small;
+  @include form;
 
   h3 {
     margin-bottom: 40px;

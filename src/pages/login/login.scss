@@ -10,8 +10,8 @@
   justify-content: space-between;
   flex-direction: column;
   gap: 16px;
-  @include form;
   border-radius: 16px;
+  @include form;
 }
 
 .createLink {

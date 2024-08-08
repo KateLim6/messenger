@@ -6,9 +6,9 @@
   width: 530px;
   display: flex;
   flex-direction: column;
-  @include form;
   border-radius: 16px;
   position: relative;
+  @include form;
 }
 
 .title {
