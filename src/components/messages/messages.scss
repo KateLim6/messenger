@@ -1,0 +1,74 @@
+@import "../../styles/global.scss";
+
+.wrapper {
+  width: 100%;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+.header {
+  padding: 10px;
+  width: 100%;
+  background-color: $background-gray;
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  box-shadow: -5px 5px 40px #b1b1b1;
+
+  p {
+    color: $base-1;
+  }
+}
+
+.messages {
+  margin: 70px 10px;
+  max-height: 82%;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: absolute;
+}
+
+.import {
+  padding: 20px;
+  height: fit-content;
+  background-color: $base-2;
+  max-width: 40%;
+  width: fit-content;
+  border-radius: 30px 30px 30px 0;
+  margin-right: auto;
+}
+
+.export {
+  padding: 20px;
+  height: fit-content;
+  background-color: $base-3;
+  max-width: 40%;
+  width: fit-content;
+  border-radius: 30px 30px 0 30px;
+  margin-left: auto;
+}
+
+.input {
+  width: 84%;
+}
+
+.bottom {
+  padding: 10px;
+  width: 100%;
+  background-color: $background-gray;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  box-shadow: -5px 5px 40px #b1b1b1;
+
+  input {
+    padding: 0 10px;
+    font-size: 12px;
+    border-bottom: none;
+  }
+}

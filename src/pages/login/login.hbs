@@ -1,0 +1,16 @@
+<div class="loginWrapper">
+  <h3>Вход</h3> 
+  {{> TextInput 
+    value='katekate' 
+    label='Логин'
+    errorText='Неверный логин'
+  }}
+   {{> PasswordInput 
+    value='' 
+    label='Пароль'
+    errorText='Неверный пароль'
+  }}
+
+  {{> Button label='Войти' type='link'}}
+  <a href="#" class="createLink">Создать аккаунт</a>
+</div>

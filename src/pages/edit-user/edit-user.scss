@@ -1,0 +1,8 @@
+@import "../../styles/global.scss";
+
+.modals {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  gap: 20px;
+}

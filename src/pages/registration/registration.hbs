@@ -1,0 +1,18 @@
+<div class="registrationWrapper">
+  <h3>Регистрация</h3> 
+  {{> TextInput value='katekate@ya.ru' label='Почта'}}
+
+  {{> TextInput value='katekate' label='Логин' errorText='Неверный логин'}}
+
+  {{> TextInput value='Катя' label='Имя'}}
+
+  {{> TextInput value='Лим' label='Фамилия'}}
+
+  {{> PhoneInput value='+7 978 999 99 99' label='Телефон'}}
+
+  {{> PasswordInput value='' label='Пароль' errorText=''}}
+  {{> PasswordInput value='' label='Пароль (ещё раз)' errorText='Пароли не совпадают'}}
+
+  {{> Button label='Зарегистрироваться' type='link'}}
+  <a href="#" class="createLink">Войти</a>
+</div>

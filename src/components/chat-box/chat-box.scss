@@ -1,0 +1,32 @@
+@import "../../styles/global.scss";
+
+.user {
+  padding: 20px;
+  height: 40px;
+  display: grid;
+  grid-template-columns: 60px auto;
+  gap: 6px;
+  border: 1px solid $base-2;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $base-2;
+  }
+
+  &__image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: $background-gray;
+  }
+
+  &__right {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  &__active {
+    background-color: $base-3;
+  }
+}
