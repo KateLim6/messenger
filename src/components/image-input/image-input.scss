@@ -1,0 +1,8 @@
+@import "../../styles/global.scss";
+
+.imageInput {
+  &__img {
+    object-fit: contain;
+    border-radius: 6px;
+  }
+}

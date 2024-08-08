@@ -1,0 +1,44 @@
+@import "../../styles/global.scss";
+
+.profileWrapper {
+  margin: 8% auto;
+  padding: 20px;
+  width: 530px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  position: relative;
+  @include form;
+}
+
+.title {
+  margin: auto;
+}
+
+.image {
+  position: absolute;
+  top: -60px;
+  left: 40px;
+  border-radius: 30px;
+}
+
+.params {
+  margin: 80px 0;
+  width: 100%;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  &__link {
+    font-size: 14px;
+    color: $link;
+    text-decoration: none;
+
+    &:hover {
+      color: $link-hover;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+@import "../../styles/global.scss";
+
+.button {
+  padding: 20px;
+  height: fit-content;
+  width: fit-content;
+  text-align: center;
+  color: $base-1;
+  background-color: $button;
+  border-radius: 16px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $button-hover;
+  }
+}

@@ -1,0 +1,18 @@
+@import "../../styles/global.scss";
+
+.search {
+  margin: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  background-color: $background-gray;
+  border-radius: $border-small;
+  color: $title;
+
+  input {
+    padding: 0 10px;
+    font-size: 12px;
+    border-bottom: none;
+  }
+}

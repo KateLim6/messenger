@@ -1,0 +1,25 @@
+@import "../../styles/global.scss";
+
+.colWrapper {
+  padding: 20px 0;
+  width: 100%;
+  background-color: $base-1;
+  color: $base-0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+}
+
+.profile {
+  padding-right: 20px;
+  font-size: 12px;
+  color: $link;
+  text-align: end;
+
+  &:hover {
+    color: $link-hover;
+  }
+}
