@@ -1,0 +1,17 @@
+<div class="modal">
+  {{#if title}}<h3>{{title}}</h3>{{/if}}
+  {{#if titleError}}<h3 class="error">{{titleError}}</h3>{{/if}}
+
+  {{#if img}}
+    <div>cat.jpg</div>
+  {{/if}}
+
+  {{#if input}}{{>TextInput value='' label='Логин'}}{{/if}}
+
+  {{#if inputFile}}
+    {{> FileInput}}
+  {{/if}}
+
+  <div class="button">{{#if buttonLabel}} {{buttonLabel}}{{/if}}</div>
+  {{#if bottomError}} <p class="error">{{bottomError}}</p>{{/if}}
+</div>

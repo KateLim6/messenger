@@ -1,0 +1,14 @@
+@import "../../styles/global.scss";
+
+.registrationWrapper {
+  margin: 20px auto;
+  padding: 20px;
+  width: 400px;
+  height: 86vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  @include form;
+  border-radius: 16px;
+}

@@ -1,0 +1,8 @@
+<div class="colWrapper">
+  <a href="" class="profile">Профиль</a>
+    {{>Search}}
+
+    {{#each (users)}}
+      {{>ChatBox}}
+    {{/each}}
+</div>

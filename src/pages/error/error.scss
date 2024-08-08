@@ -1,0 +1,29 @@
+@import "../../styles/global.scss";
+
+.errorWrapper {
+  margin: 10% auto;
+  padding: 20px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  p{
+    margin: -40px 0 40px 0;
+    color: $base-1;
+  }
+
+  h1 {
+    position: relative;
+    text-align: center;
+    font-size: 140px;
+    transition: 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+    @include textShadow;
+  }
+}
+
+.img {
+  margin: -34px 0 -34px -180px;
+}

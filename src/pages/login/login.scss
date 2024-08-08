@@ -1,0 +1,24 @@
+@import "../../styles/global.scss";
+
+.loginWrapper {
+  margin: 10% auto;
+  padding: 40px;
+  width: 400px;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 16px;
+  @include form;
+  border-radius: 16px;
+}
+
+.createLink {
+  text-decoration: none;
+  color: $link;
+
+  &:hover {
+    color: $link-hover;
+  }
+}

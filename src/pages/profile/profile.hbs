@@ -1,0 +1,23 @@
+<div class="profileWrapper">
+  <div class="image">
+    {{> ImageInput 
+      src='../../../public/cat.jpg' 
+      width='160'
+      header='300'
+    }}
+  </div>
+
+  <h3 class="title">Катя</h3>
+
+  <div class="params">
+    {{#each (profileInfo)}}
+      {{> ProfileRow}}
+    {{/each}}
+  </div>
+
+  <div class="links">
+    <a href="" class="links__link">Изменить данные</a>
+    <a href="" class="links__link">Изменить пароль</a>
+    <a href="" class="links__link">Выйти</a>
+  </div>  
+</div>

@@ -1,0 +1,15 @@
+@import "../../styles/global.scss";
+
+.fileInput {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  &__input {
+    padding-left: 0;
+    font-size: 14px;
+    border: none;
+    outline: none;
+  }
+}
